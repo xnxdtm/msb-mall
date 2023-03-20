@@ -1,8 +1,8 @@
 server:
-  port: 9004
+  port: 9001
 spring:
   application:
-    name: mall-production
+    name: mall-coupon
   cloud:
     nacos:
       server-addr: 192.168.3.100:8848
