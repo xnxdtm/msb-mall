@@ -3,13 +3,11 @@ server:
 spring:
   application:
     name: mall-coupon
+  profiles:
+    active: prd
   cloud:
     nacos:
       server-addr: 192.168.3.100:8848
-  datasource:
-    url: jdbc:mysql://192.168.3.100:3306/msb_mall
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: root
-mybatis-plus:
-  mapper-locations: classpath*:/com/msb/mall/**/*.xml
+      config:
+        namespace: a8a9298c-6b50-4502-8a1e-6ee3137070ae
+        file-extension: yaml

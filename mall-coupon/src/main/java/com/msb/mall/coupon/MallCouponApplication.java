@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@MapperScan("com.msb.mall.coupon.mapper")
+@MapperScan("com.msb.mall.coupon.dao")
 public class MallCouponApplication {
 
     public static void main(String[] args) {
