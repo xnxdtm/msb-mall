@@ -25,10 +25,18 @@ import com.msb.mall.common.utils.R;
  * @date 2023-03-21 06:22:50
  */
 @RestController
-@RequestMapping("coupon/brand")
+@RequestMapping("product/brand")
 public class BrandController {
     @Autowired
     private BrandService brandService;
+
+    /**
+     * 列表
+     */
+    @RequestMapping("/all")
+    public R allBrand(){
+        return R.ok().put("data", "allBrand");
+    }
 
     /**
      * 列表
