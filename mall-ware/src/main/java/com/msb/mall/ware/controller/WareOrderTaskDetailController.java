@@ -25,7 +25,7 @@ import com.msb.mall.common.utils.R;
  * @date 2023-03-21 06:08:58
  */
 @RestController
-@RequestMapping("coupon/wareordertaskdetail")
+@RequestMapping("ware/wareordertaskdetail")
 public class WareOrderTaskDetailController {
     @Autowired
     private WareOrderTaskDetailService wareOrderTaskDetailService;

@@ -25,7 +25,7 @@ import com.msb.mall.common.utils.R;
  * @date 2023-03-21 06:11:49
  */
 @RestController
-@RequestMapping("coupon/memberlevel")
+@RequestMapping("member/memberlevel")
 public class MemberLevelController {
     @Autowired
     private MemberLevelService memberLevelService;

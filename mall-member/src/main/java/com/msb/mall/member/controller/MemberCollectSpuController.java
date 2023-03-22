@@ -25,7 +25,7 @@ import com.msb.mall.common.utils.R;
  * @date 2023-03-21 06:11:49
  */
 @RestController
-@RequestMapping("coupon/membercollectspu")
+@RequestMapping("member/membercollectspu")
 public class MemberCollectSpuController {
     @Autowired
     private MemberCollectSpuService memberCollectSpuService;

@@ -25,7 +25,7 @@ import com.msb.mall.common.utils.R;
  * @date 2023-03-21 06:23:13
  */
 @RestController
-@RequestMapping("coupon/orderreturnreason")
+@RequestMapping("order/orderreturnreason")
 public class OrderReturnReasonController {
     @Autowired
     private OrderReturnReasonService orderReturnReasonService;

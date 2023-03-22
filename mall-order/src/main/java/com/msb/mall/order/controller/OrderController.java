@@ -22,7 +22,7 @@ import com.msb.mall.common.utils.R;
  * @date 2023-03-21 06:23:13
  */
 @RestController
-@RequestMapping("coupon/order")
+@RequestMapping("order/order")
 public class OrderController {
     @Autowired
     private OrderService orderService;
