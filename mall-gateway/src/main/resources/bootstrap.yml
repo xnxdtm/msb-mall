@@ -1,0 +1,14 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: mall-gateway
+  cloud:
+    nacos:
+      server-addr: 192.168.3.100:8848
+    gateway:
+      routes:
+      - id: path_route
+        uri: https://baidu.com
+        predicates:
+        - After=2017-01-20T17:42:47.789-07:00[America/Denver]
